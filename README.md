@@ -2,4 +2,4 @@
 <br>
 created using HTML & CSS with (responsive)
 <br>
-Author: Bijay Mandal
+Creator: Bijay Mandal
