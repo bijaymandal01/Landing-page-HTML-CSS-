@@ -36,6 +36,8 @@ html,body{
     font-size: 3.5vw;
     font-weight:700 ;
 }
+
+
 .nav2 h4{
     font-size:1.5vw;
 
@@ -46,11 +48,14 @@ html,body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all ease 0.3s;
   }
 .nav2 h4:hover {
     background-color:#dadada;
     border-style: groove;
     border-radius: 70%;
+    box-shadow: 3px 3px 0px #000;
+
   }
 .nav2 i{
     font-size: 3vw;
@@ -75,11 +80,20 @@ html,body{
     font-size: 4vw;
 
 }
+.left h1::selection{
+    color: red;
+    background-color: black;
+    
+}
 .left h1 span{
     color: lightseagreen;
 }
 .left h1 span:hover{
     color: rgb(129, 180, 29);
+}
+.left h1 span::selection{
+    color: yellow;
+    background-color: black;
 }
 .left p{
     font-size: 1.7vw;
@@ -98,12 +112,15 @@ html,body{
     color: white;
     border: 0.1vw solid ;
     margin-bottom:4vw;
+    transition: all ease 0.5s;
 
 }
 .explorenow:hover{
     background-color: rgb(129, 180, 29);
     color: white;
     border-style: groove;
+    box-shadow: 5px 3px 0px #000;
+
 }
 
 .signin{
@@ -114,10 +131,12 @@ html,body{
     background-color: lightseagreen;
     color: white;
     border: 0.05vw solid #dadada ;
+    transition: all ease 0.5s;
 }
 .signin:hover{
     background-color: rgb(129, 180, 29);
     color: white;
+    box-shadow: 5px 3px 0px #000;
 }
 
 
@@ -160,6 +179,7 @@ html,body{
         margin-bottom: 10vw;
     
     }
+
     .explorenow{
         border-radius: 4vw;
         font-size: 4vw;
@@ -224,6 +244,3 @@ html,body{
     }
     
 }
-
-
-
